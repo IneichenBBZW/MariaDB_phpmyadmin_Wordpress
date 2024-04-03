@@ -9,7 +9,7 @@ $ docker run -d --name=mariadb --network blog-network -e MARIADB_ROOT_PASSWORD=s
 phpmyadmin-Container erstellen:\
 $ docker run --name phpmyadmin --network blog-network -d -e PMA_HOST=mariadb -p 8080:80 phpmyadmin
 
-Unter phpmyadmin "Benutzerkonten" ("User accounts") ein Benutzerkonto hinzufügen. (Add user account)\
+Unter phpmyadmin "Benutzerkonten" ("User accounts") ein Benutzerkonto hinzufügen. (Add user account)
 1) Benutzername: blog\
 2) Passwort generieren: Generieren klicken\
 3) Passwort notieren! z.B. in Notepad++\
