@@ -1,0 +1,1 @@
+# MariaDB_phpmyadmin_Wordpress
